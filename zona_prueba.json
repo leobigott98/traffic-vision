@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "alto_ancho": [
+    1080,
+    810
+  ],
+  "puntos_xy": [
+    [
+      1.6598360655737705,
+      412.0615384615385
+    ],
+    [
+      325.327868852459,
+      395.44615384615383
+    ],
+    [
+      353.5450819672131,
+      883.9384615384615
+    ],
+    [
+      4.979508196721311,
+      917.1692307692308
+    ]
+  ],
+  "imagen_referencia": "C:\\Users\\l_a_b\\Dropbox\\PC\\Documents\\UNIMET\\TESIS ELECTRICA\\tesis-vision\\bus.jpg",
+  "tipo": "cuadrilatero_convexo"
+}

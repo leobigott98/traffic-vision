@@ -1,0 +1,10 @@
+# Seguimiento inicial de vehículos. Se guarda una copia en cada ejecución.
+# Parámetros compatibles con ByteTrack de Ultralytics:
+# https://docs.ultralytics.com/modes/track/
+tracker_type: bytetrack
+track_high_thresh: 0.25   # Primera asociación: detecciones con mayor confianza.
+track_low_thresh: 0.10   # Segunda asociación: rescatar tracks con detecciones débiles.
+new_track_thresh: 0.25   # Una detección débil aislada no inicia un track nuevo.
+track_buffer: 30         # Memoria de tracks perdidos, en actualizaciones/fotogramas.
+match_thresh: 0.80       # Umbral de coste de asociación; NO es IoU mínima 0.80.
+fuse_score: true         # Combina confianza e información geométrica en asociación.
