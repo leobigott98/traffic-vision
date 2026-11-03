@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "caducidad_s": 3.0,
+  "publicar_cada_s": 1.0,
+  "salto_max_s": 1.0,
+  "fuentes": [
+    {
+      "id": "tapo",
+      "tipo": "rtsp",
+      "url_env": "CAMARA_RTSP",
+      "camara_fija": true,
+      "zonas": null,
+      "mapeo_accesos": {}
+    },
+    {
+      "id": "grabacion",
+      "tipo": "archivo",
+      "ruta": "../../vision/video_prueba.mp4",
+      "ritmo_real": true,
+      "camara_fija": true,
+      "zonas": null,
+      "mapeo_accesos": {}
+    }
+  ]
+}

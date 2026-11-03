@@ -1,0 +1,4 @@
+# Complementos únicamente. Conserva torch/torchvision/OpenCV/Ultralytics del Jetson.
+shapely>=2.0,<3
+PyYAML>=6,<7
+lap>=0.5.12,<0.6
