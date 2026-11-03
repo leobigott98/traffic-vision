@@ -19,3 +19,7 @@ pruebas/
 
 old_code/
 resultados*/
+# Configuración y calibración locales; podrían revelar ubicación o encuadre.
+config/*.local.json
+calibracion/
+.pytest_cache/
